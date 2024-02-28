@@ -3,7 +3,7 @@
 ## Main Objective
 In the complex automotive industry, this project addresses the challenge of uncertainty about customer preferences. The focus is on the interplay between vehicle insurance considerations and customer preferences during the car purchasing process. The decision to purchase a vehicle involves the critical consideration of insurance costs, reflecting customers' diverse preferences, financial capacities, and risk tolerances. This project aims to bridge the gap by developing a classifier to predict insurance risk ratings and implementing a clustering algorithm to identify car clusters aligned with specific customer segments.
 
-## Process
+## The Process
 
 ### Data Pre-processing
 - **Data Source:** Kaggle dataset focusing on vehicle specifications, normalized losses, and assigned insurance risk.
