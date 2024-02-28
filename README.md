@@ -1,5 +1,4 @@
 # Vehicle-Insurance-Risk-Prediction-and-Car-Clustering
-# Vehicle Insurance Risk Prediction and Car Clustering
 
 ## Main Objective
 In the complex automotive industry, this project addresses the challenge of uncertainty about customer preferences. The focus is on the interplay between vehicle insurance considerations and customer preferences during the car purchasing process.
