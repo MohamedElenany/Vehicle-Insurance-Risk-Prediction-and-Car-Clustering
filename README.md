@@ -44,3 +44,8 @@ Identified four distinct car clusters based on features.
 
 ## Conclusion
 This project, by predicting insurance risk ratings and identifying distinct car clusters, provides a comprehensive solution for dealerships to better understand and cater to customer preferences. The results empower dealerships to optimize their inventory, streamline the purchasing process, and enhance customer satisfaction by offering vehicles tailored to specific customer segments and their insurance considerations.
+
+## Files Uploaded:
+- *automobile.csv:* Contains the vehicle specifications and insurance risk ratings data.
+- *Report.pdf:* Presents a comprehensive report of the project.
+- *project_code.R:* Contains the full code for all project steps.
