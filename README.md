@@ -1,10 +1,7 @@
 # Vehicle-Insurance-Risk-Prediction-and-Car-Clustering
 
 ## Main Objective
-In the complex automotive industry, this project addresses the challenge of uncertainty about customer preferences. The focus is on the interplay between vehicle insurance considerations and customer preferences during the car purchasing process.
-
-### The Interplay of Insurance and Customer Preference
-The decision to purchase a vehicle involves the critical consideration of insurance costs, reflecting customers' diverse preferences, financial capacities, and risk tolerances. This project aims to bridge the gap by developing a classifier to predict insurance risk ratings and implementing a clustering algorithm to identify car clusters aligned with specific customer segments.
+In the complex automotive industry, this project addresses the challenge of uncertainty about customer preferences. The focus is on the interplay between vehicle insurance considerations and customer preferences during the car purchasing process. The decision to purchase a vehicle involves the critical consideration of insurance costs, reflecting customers' diverse preferences, financial capacities, and risk tolerances. This project aims to bridge the gap by developing a classifier to predict insurance risk ratings and implementing a clustering algorithm to identify car clusters aligned with specific customer segments.
 
 ## Process
 
@@ -25,34 +22,25 @@ The decision to purchase a vehicle involves the critical consideration of insura
   - **K-Means Clustering:** Employed after feature selection using Random Forest feature importance.
 
 ### Success Metrics
-- Utilized accuracy metrics to evaluate classification models.
-- Employed feature importance to enhance the clustering algorithm's effectiveness.
+- Employed accuracy metrics for classification and used the elbow method and silhouette score for clustering assessment.
 
 ## Final Results
-
 ### Classification Model
-- **Random Forest:**
-  - Achieved a high test accuracy score of 83.9%, providing a powerful tool for data-driven decisions aligned with customer preferences.
+- **Random Forest:** Achieved a high test accuracy score of 83.9%, providing a powerful tool for data-driven decisions aligned with customer preferences.
 
-### Clustering Algorithm
-- Identified four distinct car clusters based on features.
+### Clustering Algorithm:
+Identified four distinct car clusters based on features.
+1. **Versatile Affordability:** Neutral risk, moderate insurance cost, appeals to young professionals and families.
 
-#### Car Clusters and Customer Segments
-1. **Cluster 1 - Versatile Affordability:** Neutral risk, moderate insurance cost, appeals to young professionals and families.
+2. **Practical Reliability:** Slightly higher risk, average-sized sedans, targets practical customers seeking reliability.
 
-2. **Cluster 2 - Practical Reliability:** Slightly higher risk, average-sized sedans, targets practical customers seeking reliability.
+3. **Luxury and Comfort:** Neutral risk, large sedans, appeals to affluent individuals seeking safety and comfort.
 
-3. **Cluster 3 - Luxury and Comfort:** Neutral risk, large sedans, appeals to affluent individuals seeking safety and comfort.
+4. **Performance Enthusiasts:** Highest risk, larger-sized cars, convertibles, appeals to enthusiasts seeking luxury and performance.
 
-4. **Cluster 4 - Performance Enthusiasts:** Highest risk, larger-sized cars, convertibles, appeals to enthusiasts seeking luxury and performance.
-
-### Business Value and Applicability of Results
-- **Optimized Inventory:**
-  - Empowers dealerships to align their inventory with customer preferences, reducing inefficiencies in the purchasing process.
-  - Enables targeted inventory management based on predicted insurance risk ratings and identified customer clusters.
-  
-- **Enhanced Customer Satisfaction:**
-  - Tailored marketing strategies enhance customer satisfaction by offering vehicles that align with their preferences and insurance capabilities.
+## Business Value and Applicability of Results
+- **Optimized Inventory:** Empowers dealerships to align their inventory with customer preferences, reducing inefficiencies in the purchasing process, and enables targeted inventory management based on predicted insurance risk ratings and identified customer clusters.
+- **Enhanced Customer Satisfaction:** Tailored marketing strategies enhance customer satisfaction by offering vehicles that align with their preferences and insurance capabilities.
 
 ## Conclusion
 This project, by predicting insurance risk ratings and identifying distinct car clusters, provides a comprehensive solution for dealerships to better understand and cater to customer preferences. The results empower dealerships to optimize their inventory, streamline the purchasing process, and enhance customer satisfaction by offering vehicles tailored to specific customer segments and their insurance considerations.
